@@ -11,13 +11,13 @@
 # if __name__ == "__main__":
 #
 #     main()
-a = []
+a = ()
 for elements in range(10):
     if elements % 2 != 0:
         a.append(elements)
 a = a[:3]
 
-b = []
+b = ()
 for elements in range(10):
     if elements % 2 == 0:
         b.append(elements)
@@ -39,3 +39,4 @@ c.extend([7, 8, 9])
 print(c)
 print(d[-1])
 print(len(d))
+)
